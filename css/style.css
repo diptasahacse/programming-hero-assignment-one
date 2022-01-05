@@ -17,6 +17,8 @@ CSS INDEX
 5. Mission Section
 6. Develop Section
 7. Community Section
+8. Custom ( Form ) Section
+9. Footer Section
 
 ====================================================*/
 
@@ -148,4 +150,19 @@ h1{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 85px;
+}
+/* 8. Custom ( Form ) Section */
+
+
+
+/* 9. Footer Section */
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+footer h3{
+    font-size: 30px;
+    margin-bottom: 10px;
 }

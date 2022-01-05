@@ -1,0 +1,93 @@
+/*===================================================
+Template Name: Mission 2022
+Author: Dipta Saha
+Email: diptasaha.lpu.cse@gmail.com
+Description: This is Programming Hero Assignment one
+Date: 5th Jan 2022 
+====================================================*/
+
+
+/*===================================================
+CSS INDEX
+----------
+1. Google Fonts
+2. Common CSS
+3. Reusable Components
+4. Hero Section
+
+====================================================*/
+
+/* 1. Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300&display=swap');
+
+/* 2. Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+h1{
+    font-size: 50px;
+    
+}
+
+/* 3. Reusable Components */
+.row{
+    max-width: 1180px;
+    margin: auto;
+}
+.orange-color{
+    color: orange;
+}
+.btn{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgb(187, 185, 185);
+    display: inline-block;
+    font-weight: 500;
+    margin: 10px 0;
+    
+}
+
+
+
+/* 4. Hero Section */
+.hero-content-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero-text-section{
+    padding-top: 115px;
+}
+.hero-text{
+    border-left: 4px solid #FF5959;
+    padding-left: 10px;
+}
+.hero-other-content{
+    margin-top: 25px;
+}
+.hero-other-content p{
+    margin: 10px 0;;
+}
+.hero-des{
+    padding-right: 150px;
+}
+.hero-button{
+    margin-bottom: 20px;
+    transition: .5s;
+}
+.hero-button:hover{
+    scale: 1.07;
+
+}
+.hero-image-section img{
+    width: 60%;
+    margin-left: 40px;
+}
+

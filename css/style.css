@@ -15,6 +15,8 @@ CSS INDEX
 3. Reusable Components
 4. Hero Section
 5. Mission Section
+6. Develop Section
+7. Community Section
 
 ====================================================*/
 
@@ -61,6 +63,17 @@ h1{
     text-align: center;
     color: #13103A;
     font-weight: 800;
+}
+.dev-community-text{
+    font-size: 35px;
+    margin: 20px 0;
+}
+.dev-community-des{
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.dev-community-img{
+    width: 100%;
 }
 /* 4. Hero Section */
 .hero-content-section{
@@ -122,4 +135,17 @@ h1{
 }
 .mission3{
     background-color: #FFF4D6;
+}
+
+/* 6. Develop Section */
+.develop-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 85px;
+}
+/* 7. Community Section */
+.community-grid-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 85px;
 }

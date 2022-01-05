@@ -14,6 +14,7 @@ CSS INDEX
 2. Common CSS
 3. Reusable Components
 4. Hero Section
+5. Mission Section
 
 ====================================================*/
 
@@ -33,7 +34,6 @@ h1{
     font-size: 50px;
     
 }
-
 /* 3. Reusable Components */
 .row{
     max-width: 1180px;
@@ -51,12 +51,17 @@ h1{
     box-shadow: 3px 3px 15px rgb(187, 185, 185);
     display: inline-block;
     font-weight: 500;
-    margin: 10px 0;
-    
+    margin: 10px 0; 
 }
-
-
-
+.section-extra-top-bottom-padding{
+    padding: 30px 0;
+}
+.section-title{
+    font-size: 40px;
+    text-align: center;
+    color: #13103A;
+    font-weight: 800;
+}
 /* 4. Hero Section */
 .hero-content-section{
     display: grid;
@@ -90,4 +95,31 @@ h1{
     width: 60%;
     margin-left: 40px;
 }
-
+/* 5. Mission Section */
+.mission-grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 40px 0;
+}
+.mission-grid-container img{
+    width: 40%;
+}
+.mission-grid-container div{
+    padding: 45px 32px;
+    border-radius: 20px;
+}
+.mission-grid-container h4{
+    font-size: 25px;
+    margin: 15px 0;
+    color: #000000;
+}
+.mission1{
+    background-color: #EEF6F7;
+}
+.mission2{
+    background-color: #FFEFEF;
+}
+.mission3{
+    background-color: #FFF4D6;
+}

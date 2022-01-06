@@ -32,12 +32,10 @@ CSS INDEX
     font-family: 'Open Sans', sans-serif;
 }
 body{
-    
     color: #333333;
 }
 h1{
     font-size: 50px;
-    
 }
 textarea{
     resize: none;
@@ -63,7 +61,6 @@ textarea{
     cursor: pointer;
     font-size: 16px;
     border: none;
-    
 }
 .mission-box-shadow{
     box-shadow: 1px 1px 10px gray;
@@ -100,7 +97,6 @@ textarea{
     margin: 5px;
     width: 100%;
     transition: .3s;
-
 }
 .form-design:focus{
     outline: none;
@@ -136,7 +132,6 @@ textarea{
 }
 .hero-button:hover{
     scale: 1.07;
-
 }
 .hero-image-section img{
     width: 60%;
@@ -173,7 +168,6 @@ textarea{
 .mission3{
     background-color: #FFF4D6;
 }
-
 /* 6. Develop Section */
 .develop-grid-container{
     display: grid;
@@ -192,7 +186,6 @@ textarea{
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
-
 .lottie-img-side{
     text-align: center;
 }
@@ -202,6 +195,11 @@ textarea{
 }
 .contact-form-side{
     padding: 70px 40px;
+}
+.contact-form-side h5{
+    margin-left: 5px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 .form-button{
     text-align: right;

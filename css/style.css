@@ -17,7 +17,7 @@ CSS INDEX
 5. Mission Section
 6. Develop Section
 7. Community Section
-8. Custom ( Form ) Section
+8. Get In Touch Section
 9. Footer Section
 
 ====================================================*/
@@ -55,7 +55,12 @@ h1{
     box-shadow: 3px 3px 15px rgb(187, 185, 185);
     display: inline-block;
     font-weight: 500;
-    margin: 10px 0; 
+    margin: 10px 0;
+    cursor: pointer;
+    
+}
+.mission-box-shadow{
+    box-shadow: 1px 1px 10px gray;
 }
 .section-extra-top-bottom-padding{
     padding: 30px 0;
@@ -76,6 +81,24 @@ h1{
 }
 .dev-community-img{
     width: 100%;
+}
+.form-design{
+    border: 1px solid gray;
+    padding: 9px 3px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 5px;
+    width: 100%;
+    transition: .3s;
+
+}
+.form-design:focus{
+    outline: none;
+}
+.form-design:hover{
+    border-color: orange;
+    
+
 }
 /* 4. Hero Section */
 .hero-content-section{
@@ -151,10 +174,26 @@ h1{
     grid-template-columns: 2fr 1fr;
     grid-gap: 85px;
 }
-/* 8. Custom ( Form ) Section */
+/* 8. Get In Touch Section */
+.get-in-touch-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
 
+.lottie-img-side{
+    text-align: center;
+}
+.lottie-img-side img{
+    width: 80%;
 
-
+}
+.contact-form-side{
+    padding: 70px 40px;
+}
+.form-button{
+    text-align: right;
+}
 /* 9. Footer Section */
 footer{
     background-color: #0B0D17;
